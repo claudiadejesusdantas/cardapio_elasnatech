@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2{
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+    color: #fafafa;
+    font-size: 10rem;
+    width: 100%;
+}
+
+h2{
+    color: #4f575a74;
+}
+
+
+h3 {
+    font-family: 'Fasthand', cursive;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+span{
+    font-weight: bolder;
+}
+
+footer{
+    padding: 10px;
+    background-color: #000;
+    color: #fafafa;
+    text-align: center;
+}
+
+.background_main {
+    background-image: url(./assets/background_menu.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.card_food{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card_food > img {
+    width: 25em;
+    border-radius: 20px;
+}
+
+.card_food:hover{
+    background-color: #4f575a74;
+    border-radius: 20px;
+}
+

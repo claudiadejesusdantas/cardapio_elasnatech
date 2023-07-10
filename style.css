@@ -69,3 +69,9 @@ footer{
     border-radius: 20px;
 }
 
+.background_main:hover{
+    background-image: none;
+    background-color: #5d5a5a;
+    
+}
+
